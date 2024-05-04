@@ -17,3 +17,4 @@ function mostrarTablaMultiplicar(numero) {
     document.getElementById('tablaMultiplicar').innerHTML = tablaHTML;
     document.getElementById('totalMultiplicaciones').innerText = `Total: ${totalMultiplicaciones}`;
 }
+

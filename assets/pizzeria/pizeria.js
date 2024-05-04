@@ -1,8 +1,8 @@
 
 document.getElementById('btnValidar').addEventListener('click', function() {
-    const edad = parseInt(document.getElementById('edadInput').value);
-    const genero = document.getElementById('generoSelect').value;
-    const resultado = validarPremio(edad, genero);
+    let edad = parseInt(document.getElementById('edadInput').value);
+    let genero = document.getElementById('generoSelect').value;
+    let resultado = validarPremio(edad, genero);
     
     function validarPremio(edad, genero) {
         if (edad <= 10) {
